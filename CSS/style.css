@@ -4,10 +4,10 @@
         grid-template-areas:
         "header header header"
         "sidebar content content"
-        "section1 section1 section1"
-        "section2 section2 section2"
-        "section3 section3 section3"
-        "section4 section4 section4"
+        "article article article"
+        "summary summary summary"
+        "section section section"
+        "section section section"
         "footer  footer  footer";
         background-color:  NavajoWhite;
         color: dimGrey;
@@ -22,17 +22,14 @@
         .content {
             grid-area: content;
         }
-        .section1 {
-          grid-area: section1;
+        .article {
+          grid-area: article;
         }
-        .section2 {
-          grid-area: section2;
+        .summary {
+          grid-area: summary;
         }
-        .section3 {
-          grid-area: section3;
-        }
-        .section4 {
-          grid-area: section4;
+        .section {
+          grid-area: section;
         }
         .footer {
             grid-area: footer;
@@ -45,6 +42,7 @@
   padding: 10px;
   font-size: 20px;
 }
+
 
 .header,
 .footer {
@@ -70,4 +68,12 @@ a:visited {
     }
     h1 {
       text-align: center;
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 40px;
+      font-weight: bold;;
+    }
+    p {
+      font-size: 30px;
     }
