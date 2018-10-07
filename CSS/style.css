@@ -7,7 +7,6 @@
         "article article article"
         "education education education"
         "section section section"
-        "section section section"
         "footer  footer  footer";
         background-color:  NavajoWhite;
         color: dimGrey;
@@ -39,7 +38,7 @@
   background-color:  NavajoWhite;
   color: dimGrey;
   border-radius: 5px;
-  padding: 10px;
+  padding: 5px;
   font-size: 20px;
 }
 
@@ -50,7 +49,7 @@
 }
 body {
     width: 1023px;
-    margin: 40px;
+    margin: 20px;
     font-family: 'Dancing Script', cursive;
 }
 
