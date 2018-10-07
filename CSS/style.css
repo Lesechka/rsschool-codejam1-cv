@@ -76,3 +76,6 @@ a:visited {
     p {
       font-size: 30px;
     }
+.section {
+  display: inline-block;
+}
