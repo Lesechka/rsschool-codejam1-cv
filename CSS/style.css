@@ -1,0 +1,80 @@
+.wrapper {
+        display: grid;
+        grid-template-columns: 300px 300px 423px;
+        grid-template-areas:
+        "header header header"
+        "sidebar content content"
+        "article article article"
+        "education education education"
+        "section section section"
+        "footer  footer  footer";
+        background-color:  NavajoWhite;
+        color: dimGrey;
+    }
+    .header {
+        grid-area: header;
+    }
+    .sidebar {
+            grid-area: sidebar;
+        }
+
+        .content {
+            grid-area: content;
+        }
+        .article {
+          grid-area: article;
+        }
+        .education {
+          grid-area: education;
+        }
+        .section {
+          grid-area: section;
+        }
+        .footer {
+            grid-area: footer;
+        }
+
+.box {
+  background-color:  NavajoWhite;
+  color: dimGrey;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.header,
+.footer {
+  background-color:  turquoise;
+}
+body {
+    width: 1023px;
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+a:link {
+  text-decoration: none;
+	color: dimGrey;
+}
+a:visited {
+	border-bottom: 1px solid;
+	border-color: #e0b2e0;
+	}
+  li {
+    display: inline-block;
+    padding: 10px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 40px;
+      font-weight: bold;;
+    }
+    p {
+      font-size: 30px;
+    }
