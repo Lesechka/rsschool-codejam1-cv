@@ -1,23 +1,61 @@
-body {
-    width: 1024px;
-    margin: 0 auto;
-}
-header {
-    width: 1024px;
-    height: 100px;
-  background-color: turquoise;
-  display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 60% 40%;
-}
-logo {
-  margin: 25px;
-  justify-self: end;
-}
-li {
-  display: inline-block;
+.wrapper {
+        display: grid;
+        grid-template-columns: 300px 300px 423px;
+        grid-template-areas:
+        "header header header"
+        "sidebar content content"
+        "section1 section1 section1"
+        "section2 section2 section2"
+        "section3 section3 section3"
+        "section4 section4 section4"
+        "footer  footer  footer";
+        background-color:  NavajoWhite;
+        color: dimGrey;
+    }
+    .header {
+        grid-area: header;
+    }
+    .sidebar {
+            grid-area: sidebar;
+        }
+
+        .content {
+            grid-area: content;
+        }
+        .section1 {
+          grid-area: section1;
+        }
+        .section2 {
+          grid-area: section2;
+        }
+        .section3 {
+          grid-area: section3;
+        }
+        .section4 {
+          grid-area: section4;
+        }
+        .footer {
+            grid-area: footer;
+        }
+
+.box {
+  background-color:  NavajoWhite;
+  color: dimGrey;
+  border-radius: 5px;
   padding: 10px;
-  }
+  font-size: 20px;
+}
+
+.header,
+.footer {
+  background-color:  turquoise;
+}
+body {
+    width: 1023px;
+    margin: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
 a:link {
   text-decoration: none;
 	color: dimGrey;
@@ -26,3 +64,10 @@ a:visited {
 	border-bottom: 1px solid;
 	border-color: #e0b2e0;
 	}
+  li {
+    display: inline-block;
+    padding: 10px;
+    }
+    h1 {
+      text-align: center;
+    }
